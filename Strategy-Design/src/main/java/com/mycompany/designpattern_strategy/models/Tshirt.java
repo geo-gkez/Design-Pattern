@@ -35,7 +35,7 @@ public class Tshirt {
     
         
         
-        double sum= color.d+size.d+fabric.d;
+        double sum= color.getD()+size.getD()+fabric.getD();
         
         return sum;
     
